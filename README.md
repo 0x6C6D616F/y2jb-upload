@@ -31,9 +31,21 @@ USB Root/
 └── y2jb-upload.elf
 
 Load y2jb-upload.elf on the console and select Flash y2jb.
-Credits
-Relapse Autoloader — modified download0.dat
-itsplk — latest download0.dat
-Y2JB-Upload — ELF payload and automatic region detection
-Disclaimer
-Use this software at your own risk. Make sure you have the appropriate YouTube package installed before attempting to flash the modified download0.dat.
+
+## Credits
+Gezine - creator of the original Y2JB
+shahrilnet, null_ptr - Referenced many codes from Remote Lua Loader
+BenNoxXD - ClosePlayer reference
+ntfargo - Thanks for providing V8 CVEs and CTF writeups
+abc and psfree team - Lapse implementation
+matem6 - P2JB implementation
+edisnord - Relapse implementation
+flat_z and LM - Helping implement GPU rw using direct ioctl
+john-tornblom and EchoStretch - Providing elfldr.elf payload
+hammer-83 - Various BD-J PS5 exploit references
+zecoxao, idlesauce, and TheFlow - Helping troubleshoot dlsym
+Dr.Yenyen and PS5 R&D community - Testing Y2JB
+Rush - Creating Y2JB backup file
+Feyzee61 - download0.dat generator workflow
+ufm42 - kexp used for PS5 post JB all-in-one shellcode
+itsplk - ps5-y2jb-autoloader
